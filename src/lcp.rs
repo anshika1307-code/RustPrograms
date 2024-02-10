@@ -5,9 +5,9 @@ pub fn lcp_q(){
       let c_pre = longest_common_prefix(&strs);
 
       if c_pre.is_empty() {
-          println!("No common prefix found.");
+          println!("No common prefix found. \n");
       } else {
-          println!("The longest common prefix is: '{}'", c_pre);
+          println!("The longest common prefix is: '{}' \n", c_pre);
       }
 }
 

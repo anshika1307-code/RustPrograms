@@ -2,9 +2,9 @@ pub fn prime_q(){
    let num = 13;
 
    if is_prime(num) {
-       println!("{} is a prime number.", num);
+       println!("{} is a prime number. \n", num);
    } else {
-       println!("{} is not a prime number.", num);
+       println!("{} is not a prime number. \n", num);
    }
 }
 

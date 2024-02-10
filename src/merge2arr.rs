@@ -4,7 +4,7 @@ pub fn merge2arr_q(){
 
     let result = merge_arrs(&a1, &a2);
 
-    println!("Merged Sorted Array: {:?}", result);
+    println!("Merged Sorted Array: {:?} \n", result);
 }
 
 fn merge_arrs(a1: &[i32], a2: &[i32]) -> Vec<i32> {

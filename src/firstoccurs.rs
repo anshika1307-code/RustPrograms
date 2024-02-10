@@ -3,8 +3,8 @@ pub fn firstoccurs_q() {
     let target = 3;
 
     match find_index(&nums, target) {
-        Some(index) => println!("Target value found at index: {}", index),
-        None => println!("Target value not found in the array."),
+        Some(index) => println!("Target value found at index: {}\n", index),
+        None => println!("Target value not found in the array.\n"),
     }
 }
 

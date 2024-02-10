@@ -3,7 +3,7 @@ pub fn max_suba_sum_q(){
 
   let max_sum = max_suba_sum(&arr);
 
-  println!("Maximum Subarray Sum: {}", max_sum);
+  println!("Maximum Subarray Sum: {} \n", max_sum);
 }
 
 fn max_suba_sum(arr: &[i32]) -> i32 {

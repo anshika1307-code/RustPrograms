@@ -1,7 +1,7 @@
 pub fn array_median_q(){
     let sort_arr = vec![1, 2, 3, 4, 5];
     let median_arr = median(&sort_arr);
-    println!("Median of given sorted array : {}", median_arr);
+    println!("Median of given sorted array : {}\n", median_arr);
 }
 
 fn median(sort_arr: &[i32]) -> f64 {

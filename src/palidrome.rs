@@ -2,9 +2,9 @@ pub fn palidrome_q() {
 
     let str1 = "Able Elba";
     if is_palindrome(str1) {
-        println!("'{}' is a palindrome!",str1);
+        println!("'{}' is a palindrome! \n",str1);
     } else {
-        println!("'{}' is not a palindrome.",str1);
+        println!("'{}' is not a palindrome. \n",str1);
     }
 }
 

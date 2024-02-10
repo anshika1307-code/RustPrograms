@@ -2,9 +2,9 @@ pub fn shortestword_q(){
      let str = "This is a rust code";
 
      if let Some(shortest) = shortest_word(str) {
-         println!("The shortest word is: '{}'", shortest);
+         println!("The shortest word is: '{}' \n", shortest);
      } else {
-         println!("No words found in the string.");
+         println!("No words found in the string. \n");
      }
   
   }
