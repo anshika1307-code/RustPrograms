@@ -1,5 +1,3 @@
-
-
 pub fn palidrome_q() {
 
     let str1 = "Able Elba";
